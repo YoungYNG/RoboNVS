@@ -4,6 +4,10 @@
 [📄 Paper](https://arxiv.org/abs/2506.05554)  |  [🤖 Homepage](https://youngyng.github.io/RoboNVS.github.io/)  |  [💻 Code](https://github.com/YoungYNG/RoboNVS_code#)
 
 
+## 📰 News
+**22-3-2026: Our project page, code and models are all released.**
+
+
 ## ✨ Key Points
 - 🎯 **Goal**: Train a generative model tailored for robotic manipulation that produces viewpoint-consistent outputs under controlled camera transformations.
 - ⚠️ **Limitation of Prior Work**: Existing models suffer from uncontrolled camera trajectories and lack sufficient manipulation-centric training data.
@@ -14,7 +18,7 @@
 
 <div align="center">
 
-<img src="assets/evalresults_test.png" alt="RoboNVS Demo Results" width="800">
+<img src="assets/eval_result.png" alt="RoboNVS Demo Results" width="800">
 
 </div>
 
@@ -27,7 +31,7 @@
 
 <div align="center">
 
-<img src="assets/pipeline_test.png" alt="RoboNVS Architecture">
+<img src="assets/pipeline.png" alt="RoboNVS Architecture">
 
 </div>
 
@@ -96,3 +100,30 @@ python generate_multi_gpu.py \
 --output_video output/output.mp4 \
 --gpu_ids 0,1,2  ## or 1,2,3,...
 ```
+
+<table>
+<tr>
+<td width="45%" align="center">
+<img src="assets/demo_videos/demo01.mp4" width="100%">
+<br><b>Input Video</b>
+</td>
+<td align="center">
+<div style="font-size: 2em; color: #4A90E2; padding: 0 0px;">
+  ➜
+</div>
+</td>
+<td width="45%" align="center">
+<img src="assets/demo_videos/demo01_recon" width="100%">
+<br><b>Output Video</b>
+</td>
+<td align="center">
+<div style="font-size: 2em; color: #4A90E2; padding: 0 0px;">
+  ➜
+</div>
+</td>
+<td width="45%" align="center">
+<img src="assets/demo_videos/demo01_output" width="100%">
+<br><b>Output Video</b>
+</td>
+</tr> 
+</table>
