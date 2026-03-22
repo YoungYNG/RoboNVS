@@ -1,7 +1,11 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
 
-[📄 Paper](https://arxiv.org/abs/2506.05554)  |  [🤖 Homepage](https://youngyng.github.io/RoboNVS.github.io/)  |  [💻 Code](https://github.com/YoungYNG/RoboNVS_code#)
+<p align="center">
+  <a href="https://arxiv.org/abs/2506.05554">📄 Paper</a> |
+  <a href="https://youngyng.github.io/RoboNVS.github.io/">🤖 Homepage</a> |
+  <a href="https://github.com/YoungYNG/RoboNVS_code">💻 Code</a>
+</p>
 
 
 ## 📰 News
