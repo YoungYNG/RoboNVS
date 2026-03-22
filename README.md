@@ -1,10 +1,8 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
-______________
 
-<div align="center">
 [📄 Paper](https://arxiv.org/abs/2506.05554)  |  [🤖 Homepage](https://youngyng.github.io/RoboNVS.github.io/)  |  [💻 Code](https://github.com/YoungYNG/RoboNVS_code#)
-</div>
+
 
 ## 🌟 Highlights
 - **🎯 Extreme Viewpoint Synthesis**: Generate high-quality 4D videos with camera movements ranging from -90° to 90°
