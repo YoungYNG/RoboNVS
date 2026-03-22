@@ -4,16 +4,11 @@
 [📄 Paper](https://arxiv.org/abs/2506.05554)  |  [🤖 Homepage](https://youngyng.github.io/RoboNVS.github.io/)  |  [💻 Code](https://github.com/YoungYNG/RoboNVS_code#)
 
 
-## 🌟 Highlights
-- **🎯 Extreme Viewpoint Synthesis**: Generate high-quality 4D videos with camera movements ranging from -90° to 90°
-- **🔧 Depth Watertight Mesh**: Novel geometric representation that models both visible and occluded regions
-- **⚡ Lightweight Architecture**: Only 1% trainable parameters (140M) of the 14B video diffusion backbone
-- **🎭 No Multi-view Training**: Innovative masking strategy eliminates the need for expensive multi-view datasets
-- **🏆 State-of-the-art Performance**: Outperforms existing methods, especially on extreme camera angles
+## ✨ Key Points
+- 🎯 **Goal**: Train a generative model tailored for robotic manipulation that produces viewpoint-consistent outputs under controlled camera transformations.
+- ⚠️ **Limitation of Prior Work**: Existing models suffer from uncontrolled camera trajectories and lack sufficient manipulation-centric training data.
+- 🧠 **Our Approach**: We leverage large-scale robot datasets (e.g., DROID, RoboCOIN) and construct self-supervised training pairs under static camera assumptions.
 
-## 🎬 Demo Results
-
-  
 
 <div align="center">
 
@@ -38,11 +33,10 @@
 </div>
 
   
+Our framework consists of two key components:
+- 🧩 **Depth Alignment**: We align temporally consistent relative depth from DepthCrafter with metric depth from DA3 via a global scale–shift transformation, enabling geometry-consistent view synthesis with accurate camera-aware structure.
+- 🔄 **Bi-directional Masking**: We introduce complementary masking to expose the model to diverse occlusion patterns, improving robustness to viewpoint-induced appearance changes.
 
-Our framework consists of three key components:
-1. **🔺 Depth Watertight Mesh Construction**: Creates a robust geometric prior that explicitly models both visible and occluded regions
-2. **🎭 Simulated Masking Strategy**: Generates effective training data from monocular videos without multi-view datasets
-3. **⚙️ Lightweight LoRA Adapter**: Efficiently integrates geometric information with pre-trained video diffusion models
 
 ## 🚀 Quick Start
 ### Installation
