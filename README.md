@@ -104,25 +104,21 @@ python generate_multi_gpu.py \
 <table>
 <tr>
 <td width="45%" align="center">
-<img src="assets/demo_videos/demo01.mp4" width="100%">
+<video src="assets/demo_videos/demo01.mp4" width="100%" controls></video>
 <br><b>Input Video</b>
 </td>
-<td align="center">
-<div style="font-size: 2em; color: #4A90E2; padding: 0 0px;">
-  ➜
-</div>
-</td>
+
+<td align="center">➜</td>
+
 <td width="45%" align="center">
-<img src="assets/demo_videos/demo01_recon" width="100%">
-<br><b>Output Video</b>
+<video src="assets/demo_videos/demo01_recon.mp4" width="100%" controls></video>
+<br><b>Reconstruction</b>
 </td>
-<td align="center">
-<div style="font-size: 2em; color: #4A90E2; padding: 0 0px;">
-  ➜
-</div>
-</td>
+
+<td align="center">➜</td>
+
 <td width="45%" align="center">
-<img src="assets/demo_videos/demo01_output" width="100%">
+<video src="assets/demo_videos/demo01_output.mp4" width="100%" controls></video>
 <br><b>Output Video</b>
 </td>
 </tr> 
