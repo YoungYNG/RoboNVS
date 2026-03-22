@@ -71,7 +71,7 @@ huggingface-cli download depth-anything/DA3NESTED-GIANT-LARGE-1.1 ./Depth-Anythi
 #### 1. DW-Mesh Reconstruction with our improved depth estimation
 ```bash
 ## optional according to your local device
-CUDA_VISIBLE_DEVICES=4 \
+CUDA_VISIBLE_DEVICES=0 \
 CUDA_HOME=/usr/local/cuda-11.8 \
 PATH=/usr/local/cuda-11.8/bin:/usr/bin:$PATH \
 LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH \
@@ -90,13 +90,13 @@ python recon.py --input_video demo_inputs/demo01.mp4 --output_dir ./output \
 ```bash
 python generate.py \
 --color_video output/color.mp4 \
---mask_video mask.mp4 \
+--mask_video output/mask.mp4 \
 --output_video output/output.mp4 \
 
 ## if your GPUs have only 24GB per GPU(e.g., 4090, 3090), you can use the following cmd to generate the videos
 python generate_multi_gpu.py \
 --color_video output/color.mp4 \
---mask_video mask.mp4 \
+--mask_video output/mask.mp4 \
 --output_video output/output.mp4 \
 --gpu_ids 0,1,2  ## or 1,2,3,...
 ```
