@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2506.05554">📄 Paper</a> |
+  <a href="https://youngyng.github.io/RoboNVS.github.io/">📄 Paper(coming soon)</a> |
   <a href="https://youngyng.github.io/RoboNVS.github.io/">🤖 Homepage</a> |
   <a href="https://github.com/YoungYNG/RoboNVS_code">💻 Code</a>
 </p>
