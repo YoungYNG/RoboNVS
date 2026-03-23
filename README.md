@@ -1,11 +1,66 @@
 # Beyond Viewpoint Generalization:What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation (RoboNVS)
 
+<p align="center">
+  <img src="assets/RoboNVS_logo.png" width="200"/>
+</p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2506.05554">📄 Paper</a> |
   <a href="https://youngyng.github.io/RoboNVS.github.io/">🤖 Homepage</a> |
   <a href="https://github.com/YoungYNG/RoboNVS_code">💻 Code</a>
 </p>
+
+---
+
+## 👥 Authors
+
+<p align="center">
+  Boyang Cai<sup>1,2,*,†</sup> &nbsp;
+  Qiwei Liang<sup>1,2,*</sup> &nbsp;
+  Jiawei Li<sup>2,*</sup> &nbsp;
+  Shihang Weng<sup>2,*</sup> &nbsp;
+  Zhaoxin Zhang<sup>2,*</sup>  
+  <br>
+  Tao Lin<sup>3</sup> &nbsp;
+  Xiangyu Chen<sup>1</sup> &nbsp;
+  Wenjie Zhang<sup>1</sup> &nbsp;
+  Jiaqi Mao<sup>4</sup> &nbsp;
+  Weisheng Xu<sup>1</sup> &nbsp;
+  Bin Yang<sup>1</sup> &nbsp;
+  Jiaming Liang<sup>1,2</sup> &nbsp;
+  Junhao Cai<sup>2</sup> &nbsp;
+  Renjing Xu<sup>1,‡</sup>
+</p>
+
+---
+
+## 🏫 Affiliations
+
+<p align="center">
+  <sup>1</sup> The Hong Kong University of Science and Technology (Guangzhou) &nbsp;&nbsp;&nbsp;
+  <sup>2</sup> Shenzhen University  
+  <br>
+  <sup>3</sup> Beijing Jiaotong University &nbsp;&nbsp;&nbsp;
+  <sup>4</sup> The Chinese University of Hong Kong, Shenzhen
+</p>
+
+---
+
+## ✨ Contribution Notes
+
+<p align="center">
+  * Equal Contribution &nbsp;&nbsp; 
+  † Project Leader &nbsp;&nbsp; 
+  ‡ Corresponding Author
+</p>
+
+
+<!-- <p align="center">
+  <a href="https://arxiv.org/abs/2506.05554">📄 Paper</a> |
+  <a href="https://youngyng.github.io/RoboNVS.github.io/">🤖 Homepage</a> |
+  <a href="https://github.com/YoungYNG/RoboNVS_code">💻 Code</a>
+</p> -->
+
 
 
 ## 📰 News
@@ -25,6 +80,7 @@
 <img src="assets/eval_result.png" alt="RoboNVS Demo Results" width="800">
 
 </div>
+
 
 
   
