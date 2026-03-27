@@ -52,6 +52,10 @@
 ## 📰 News
 **22-3-2026: Our project page, code and models are all released.**
 
+## ✅ To-Do
+- [ ] Release our LoRA fine-tuning training code for Wan2.1-14B model  
+- [ ] Release RoboNVS training pipeline based on Wan2.2-5B
+
 
 ## ✨ Key Points
 - 🎯 **Goal**: Train a generative model tailored for robotic manipulation that produces viewpoint-consistent outputs under controlled camera transformations.
