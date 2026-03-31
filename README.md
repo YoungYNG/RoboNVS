@@ -50,9 +50,12 @@
 
 
 ## 📰 News
-**31-03-2026: Our paper is released. Additionally, to address the high GPU memory usage of RoboNVS, we provide an optimized script `generate_less.py`.**
-**28-03-2026: To reduce GPU memory usage and inference time, we attempt to replace Wan2.1-I2V-14B-480P with Wan2.2-TI2V-5B for training. However, due to the mismatch in VAE and DiT architectures, a direct transfer is not feasible. To minimize modifications, we adapt the Wan2.2 version by adjusting the concatenation and injection strategy of the first-frame VAE output and noisy inputs, and modifying components such as the camera encoder to match the new DiT input dimensions, while keeping other parts unchanged. Experimental results show that the training loss is difficult to optimize and the generated video quality is unsatisfactory. We will continue exploring alternative solutions, such as using lighter backbone models (e.g., Wan2.1-1.3B) or reducing memory consumption during inference.**
-**22-3-2026: Our project page, code and models are all released.**
+
+- **31-03-2026:** Our paper is released. Additionally, to address the high GPU memory usage of RoboNVS, we provide an optimized script `generate_less.py`.
+
+- **28-03-2026:** To reduce GPU memory usage and inference time, we attempt to replace Wan2.1-I2V-14B-480P with Wan2.2-TI2V-5B for training. However, due to the mismatch in VAE and DiT architectures, a direct transfer is not feasible. To minimize modifications, we adapt the Wan2.2 version by adjusting the concatenation and injection strategy of the first-frame VAE output and noisy inputs, and modifying components such as the camera encoder to match the new DiT input dimensions, while keeping other parts unchanged. Experimental results show that the training loss is difficult to optimize and the generated video quality is unsatisfactory. We will continue exploring alternative solutions, such as using lighter backbone models (e.g., Wan2.1-1.3B) or reducing memory consumption during inference.
+
+- **22-03-2026:** Our project page, code and models are all released.
 
 ## ✅ To-Do
 - [ ] Release our LoRA fine-tuning training code for Wan2.1-14B model  
@@ -154,7 +157,8 @@ python generate_multi_gpu.py \
 --gpu_ids 0,1,2  ## or 1,2,3,...
 
 ## 🔥 New
-## Based on `generate.py`, this script enables generation on a single 24GB GPU by offloading part of the GPU memory to system RAM, at the cost of slower inference speed. You can adjust `num_persistent_param_in_dit` (line 228) to balance GPU memory usage and inference speed. It is possible to run generation on as little as 12GB, 8GB, or even less GPU memory by adjusting `num_persistent_param_in_dit`.
+## Based on `generate.py`, this script enables generation on a single 24GB GPU by offloading part of the GPU memory to system RAM, at the cost of slower inference speed. 
+## You can adjust `num_persistent_param_in_dit` (line 228) to balance GPU memory usage and inference speed. It is possible to run generation on as little as 12GB, 8GB, or even less GPU memory by adjusting `num_persistent_param_in_dit`.
 python generate_less.py \
 --color_video output/color.mp4 \
 --mask_video output/mask.mp4 \
